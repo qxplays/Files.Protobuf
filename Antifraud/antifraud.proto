@@ -1,0 +1,14 @@
+syntax = "proto3";
+option csharp_namespace = "AntifraudService.Generated";
+service Antifraud {
+  rpc GetSenderScore(SenderScoreRequest) returns(SenderScoreResponse);
+}
+
+message SenderScoreRequest {
+    string sender = 1;
+    int32 type = 2;
+}
+
+message SenderScoreResponse{
+  string score = 1;
+}
