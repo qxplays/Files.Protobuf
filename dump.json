@@ -1,0 +1,1767 @@
+[
+  {
+    "_index": "packets-2023-05-30",
+    "_type": "doc",
+    "_score": null,
+    "_source": {
+      "layers": {
+        "frame": {
+          "frame.section_number": "1",
+          "frame.interface_id": "0",
+          "frame.interface_id_tree": {
+            "frame.interface_name": "\\Device\\NPF_{52CA9201-C41F-47AB-A285-066C8DBA161D}",
+            "frame.interface_description": "Ethernet0"
+          },
+          "frame.encap_type": "1",
+          "frame.time": "May 30, 2023 15:48:57.356695000 Russia TZ 2 Standard Time",
+          "frame.offset_shift": "0.000000000",
+          "frame.time_epoch": "1685450937.356695000",
+          "frame.time_delta": "0.000456000",
+          "frame.time_delta_displayed": "0.000000000",
+          "frame.time_relative": "1.475427000",
+          "frame.number": "53",
+          "frame.len": "54",
+          "frame.cap_len": "54",
+          "frame.marked": "0",
+          "frame.ignored": "0",
+          "frame.protocols": "eth:ethertype:ip:tcp",
+          "frame.coloring_rule.name": "TCP RST",
+          "frame.coloring_rule.string": "tcp.flags.reset eq 1"
+        },
+        "eth": {
+          "eth.dst": "00:50:56:b9:a8:14",
+          "eth.dst_tree": {
+            "eth.dst_resolved": "VMware_b9:a8:14",
+            "eth.dst.oui": "20566",
+            "eth.dst.oui_resolved": "VMware, Inc.",
+            "eth.addr": "00:50:56:b9:a8:14",
+            "eth.addr_resolved": "VMware_b9:a8:14",
+            "eth.addr.oui": "20566",
+            "eth.addr.oui_resolved": "VMware, Inc.",
+            "eth.dst.lg": "0",
+            "eth.lg": "0",
+            "eth.dst.ig": "0",
+            "eth.ig": "0"
+          },
+          "eth.src": "00:50:56:b9:60:85",
+          "eth.src_tree": {
+            "eth.src_resolved": "VMware_b9:60:85",
+            "eth.src.oui": "20566",
+            "eth.src.oui_resolved": "VMware, Inc.",
+            "eth.addr": "00:50:56:b9:60:85",
+            "eth.addr_resolved": "VMware_b9:60:85",
+            "eth.addr.oui": "20566",
+            "eth.addr.oui_resolved": "VMware, Inc.",
+            "eth.src.lg": "0",
+            "eth.lg": "0",
+            "eth.src.ig": "0",
+            "eth.ig": "0"
+          },
+          "eth.type": "0x0800"
+        },
+        "ip": {
+          "ip.version": "4",
+          "ip.hdr_len": "20",
+          "ip.dsfield": "0x00",
+          "ip.dsfield_tree": {
+            "ip.dsfield.dscp": "0",
+            "ip.dsfield.ecn": "0"
+          },
+          "ip.len": "40",
+          "ip.id": "0x4310",
+          "ip.flags": "0x02",
+          "ip.flags_tree": {
+            "ip.flags.rb": "0",
+            "ip.flags.df": "1",
+            "ip.flags.mf": "0"
+          },
+          "ip.frag_offset": "0",
+          "ip.ttl": "128",
+          "ip.proto": "6",
+          "ip.checksum": "0x0000",
+          "ip.checksum.status": "2",
+          "ip.src": "10.0.77.132",
+          "ip.addr": "10.0.77.132",
+          "ip.src_host": "10.0.77.132",
+          "ip.host": "10.0.77.132",
+          "ip.dst": "10.0.77.164",
+          "ip.addr": "10.0.77.164",
+          "ip.dst_host": "10.0.77.164",
+          "ip.host": "10.0.77.164"
+        },
+        "tcp": {
+          "tcp.srcport": "65027",
+          "tcp.dstport": "9443",
+          "tcp.port": "65027",
+          "tcp.port": "9443",
+          "tcp.stream": "3",
+          "tcp.completeness": "36",
+          "tcp.len": "0",
+          "tcp.seq": "1",
+          "tcp.seq_raw": "1305203678",
+          "tcp.nxtseq": "1",
+          "tcp.ack": "1",
+          "tcp.ack_raw": "971262735",
+          "tcp.hdr_len": "20",
+          "tcp.flags": "0x0014",
+          "tcp.flags_tree": {
+            "tcp.flags.res": "0",
+            "tcp.flags.ae": "0",
+            "tcp.flags.cwr": "0",
+            "tcp.flags.ece": "0",
+            "tcp.flags.urg": "0",
+            "tcp.flags.ack": "1",
+            "tcp.flags.push": "0",
+            "tcp.flags.reset": "1",
+            "tcp.flags.reset_tree": {
+              "_ws.expert": {
+                "tcp.connection.rst": "",
+                "_ws.expert.message": "Connection reset (RST)",
+                "_ws.expert.severity": "6291456",
+                "_ws.expert.group": "33554432"
+              }
+            },
+            "tcp.flags.syn": "0",
+            "tcp.flags.fin": "0",
+            "tcp.flags.str": "·······A·R··"
+          },
+          "tcp.window_size_value": "0",
+          "tcp.window_size": "0",
+          "tcp.window_size_scalefactor": "-1",
+          "tcp.checksum": "0xaf42",
+          "tcp.checksum.status": "2",
+          "tcp.urgent_pointer": "0",
+          "Timestamps": {
+            "tcp.time_relative": "0.000000000",
+            "tcp.time_delta": "0.000000000"
+          }
+        }
+      }
+    }
+  },
+  {
+    "_index": "packets-2023-05-30",
+    "_type": "doc",
+    "_score": null,
+    "_source": {
+      "layers": {
+        "frame": {
+          "frame.section_number": "1",
+          "frame.interface_id": "0",
+          "frame.interface_id_tree": {
+            "frame.interface_name": "\\Device\\NPF_{52CA9201-C41F-47AB-A285-066C8DBA161D}",
+            "frame.interface_description": "Ethernet0"
+          },
+          "frame.encap_type": "1",
+          "frame.time": "May 30, 2023 15:49:01.932691000 Russia TZ 2 Standard Time",
+          "frame.offset_shift": "0.000000000",
+          "frame.time_epoch": "1685450941.932691000",
+          "frame.time_delta": "0.014113000",
+          "frame.time_delta_displayed": "4.575996000",
+          "frame.time_relative": "6.051423000",
+          "frame.number": "2223",
+          "frame.len": "66",
+          "frame.cap_len": "66",
+          "frame.marked": "0",
+          "frame.ignored": "0",
+          "frame.protocols": "eth:ethertype:ip:tcp",
+          "frame.coloring_rule.name": "TCP SYN/FIN",
+          "frame.coloring_rule.string": "tcp.flags & 0x02 || tcp.flags.fin == 1"
+        },
+        "eth": {
+          "eth.dst": "00:50:56:b9:a8:14",
+          "eth.dst_tree": {
+            "eth.dst_resolved": "VMware_b9:a8:14",
+            "eth.dst.oui": "20566",
+            "eth.dst.oui_resolved": "VMware, Inc.",
+            "eth.addr": "00:50:56:b9:a8:14",
+            "eth.addr_resolved": "VMware_b9:a8:14",
+            "eth.addr.oui": "20566",
+            "eth.addr.oui_resolved": "VMware, Inc.",
+            "eth.dst.lg": "0",
+            "eth.lg": "0",
+            "eth.dst.ig": "0",
+            "eth.ig": "0"
+          },
+          "eth.src": "00:50:56:b9:60:85",
+          "eth.src_tree": {
+            "eth.src_resolved": "VMware_b9:60:85",
+            "eth.src.oui": "20566",
+            "eth.src.oui_resolved": "VMware, Inc.",
+            "eth.addr": "00:50:56:b9:60:85",
+            "eth.addr_resolved": "VMware_b9:60:85",
+            "eth.addr.oui": "20566",
+            "eth.addr.oui_resolved": "VMware, Inc.",
+            "eth.src.lg": "0",
+            "eth.lg": "0",
+            "eth.src.ig": "0",
+            "eth.ig": "0"
+          },
+          "eth.type": "0x0800"
+        },
+        "ip": {
+          "ip.version": "4",
+          "ip.hdr_len": "20",
+          "ip.dsfield": "0x02",
+          "ip.dsfield_tree": {
+            "ip.dsfield.dscp": "0",
+            "ip.dsfield.ecn": "2"
+          },
+          "ip.len": "52",
+          "ip.id": "0x4311",
+          "ip.flags": "0x02",
+          "ip.flags_tree": {
+            "ip.flags.rb": "0",
+            "ip.flags.df": "1",
+            "ip.flags.mf": "0"
+          },
+          "ip.frag_offset": "0",
+          "ip.ttl": "128",
+          "ip.proto": "6",
+          "ip.checksum": "0x0000",
+          "ip.checksum.status": "2",
+          "ip.src": "10.0.77.132",
+          "ip.addr": "10.0.77.132",
+          "ip.src_host": "10.0.77.132",
+          "ip.host": "10.0.77.132",
+          "ip.dst": "10.0.77.164",
+          "ip.addr": "10.0.77.164",
+          "ip.dst_host": "10.0.77.164",
+          "ip.host": "10.0.77.164"
+        },
+        "tcp": {
+          "tcp.srcport": "65197",
+          "tcp.dstport": "9443",
+          "tcp.port": "65197",
+          "tcp.port": "9443",
+          "tcp.stream": "45",
+          "tcp.completeness": "63",
+          "tcp.len": "0",
+          "tcp.seq": "0",
+          "tcp.seq_raw": "2271845693",
+          "tcp.nxtseq": "1",
+          "tcp.ack": "0",
+          "tcp.ack_raw": "0",
+          "tcp.hdr_len": "32",
+          "tcp.flags": "0x00c2",
+          "tcp.flags_tree": {
+            "tcp.flags.res": "0",
+            "tcp.flags.ae": "0",
+            "tcp.flags.cwr": "1",
+            "tcp.flags.ece": "1",
+            "tcp.flags.urg": "0",
+            "tcp.flags.ack": "0",
+            "tcp.flags.push": "0",
+            "tcp.flags.reset": "0",
+            "tcp.flags.syn": "1",
+            "tcp.flags.syn_tree": {
+              "_ws.expert": {
+                "tcp.connection.syn": "",
+                "_ws.expert.message": "Connection establish request (SYN): server port 9443",
+                "_ws.expert.severity": "2097152",
+                "_ws.expert.group": "33554432"
+              }
+            },
+            "tcp.flags.fin": "0",
+            "tcp.flags.str": "····CE····S·"
+          },
+          "tcp.window_size_value": "8192",
+          "tcp.window_size": "8192",
+          "tcp.checksum": "0xaf4e",
+          "tcp.checksum.status": "2",
+          "tcp.urgent_pointer": "0",
+          "tcp.options": "02:04:05:b4:01:03:03:08:01:01:04:02",
+          "tcp.options_tree": {
+            "tcp.options.mss": "02:04:05:b4",
+            "tcp.options.mss_tree": {
+              "tcp.option_kind": "2",
+              "tcp.option_len": "4",
+              "tcp.options.mss_val": "1460"
+            },
+            "tcp.options.nop": "01",
+            "tcp.options.nop_tree": {
+              "tcp.option_kind": "1"
+            },
+            "tcp.options.wscale": "03:03:08",
+            "tcp.options.wscale_tree": {
+              "tcp.option_kind": "3",
+              "tcp.option_len": "3",
+              "tcp.options.wscale.shift": "8",
+              "tcp.options.wscale.multiplier": "256"
+            },
+            "tcp.options.nop": "01",
+            "tcp.options.nop_tree": {
+              "tcp.option_kind": "1"
+            },
+            "tcp.options.nop": "01",
+            "tcp.options.nop_tree": {
+              "tcp.option_kind": "1"
+            },
+            "tcp.options.sack_perm": "04:02",
+            "tcp.options.sack_perm_tree": {
+              "tcp.option_kind": "4",
+              "tcp.option_len": "2"
+            }
+          },
+          "Timestamps": {
+            "tcp.time_relative": "0.000000000",
+            "tcp.time_delta": "0.000000000"
+          }
+        }
+      }
+    }
+  },
+  {
+    "_index": "packets-2023-05-30",
+    "_type": "doc",
+    "_score": null,
+    "_source": {
+      "layers": {
+        "frame": {
+          "frame.section_number": "1",
+          "frame.interface_id": "0",
+          "frame.interface_id_tree": {
+            "frame.interface_name": "\\Device\\NPF_{52CA9201-C41F-47AB-A285-066C8DBA161D}",
+            "frame.interface_description": "Ethernet0"
+          },
+          "frame.encap_type": "1",
+          "frame.time": "May 30, 2023 15:49:01.932902000 Russia TZ 2 Standard Time",
+          "frame.offset_shift": "0.000000000",
+          "frame.time_epoch": "1685450941.932902000",
+          "frame.time_delta": "0.000211000",
+          "frame.time_delta_displayed": "0.000211000",
+          "frame.time_relative": "6.051634000",
+          "frame.number": "2224",
+          "frame.len": "66",
+          "frame.cap_len": "66",
+          "frame.marked": "0",
+          "frame.ignored": "0",
+          "frame.protocols": "eth:ethertype:ip:tcp",
+          "frame.coloring_rule.name": "TCP SYN/FIN",
+          "frame.coloring_rule.string": "tcp.flags & 0x02 || tcp.flags.fin == 1"
+        },
+        "eth": {
+          "eth.dst": "00:50:56:b9:60:85",
+          "eth.dst_tree": {
+            "eth.dst_resolved": "VMware_b9:60:85",
+            "eth.dst.oui": "20566",
+            "eth.dst.oui_resolved": "VMware, Inc.",
+            "eth.addr": "00:50:56:b9:60:85",
+            "eth.addr_resolved": "VMware_b9:60:85",
+            "eth.addr.oui": "20566",
+            "eth.addr.oui_resolved": "VMware, Inc.",
+            "eth.dst.lg": "0",
+            "eth.lg": "0",
+            "eth.dst.ig": "0",
+            "eth.ig": "0"
+          },
+          "eth.src": "00:50:56:b9:a8:14",
+          "eth.src_tree": {
+            "eth.src_resolved": "VMware_b9:a8:14",
+            "eth.src.oui": "20566",
+            "eth.src.oui_resolved": "VMware, Inc.",
+            "eth.addr": "00:50:56:b9:a8:14",
+            "eth.addr_resolved": "VMware_b9:a8:14",
+            "eth.addr.oui": "20566",
+            "eth.addr.oui_resolved": "VMware, Inc.",
+            "eth.src.lg": "0",
+            "eth.lg": "0",
+            "eth.src.ig": "0",
+            "eth.ig": "0"
+          },
+          "eth.type": "0x0800"
+        },
+        "ip": {
+          "ip.version": "4",
+          "ip.hdr_len": "20",
+          "ip.dsfield": "0x00",
+          "ip.dsfield_tree": {
+            "ip.dsfield.dscp": "0",
+            "ip.dsfield.ecn": "0"
+          },
+          "ip.len": "52",
+          "ip.id": "0x003a",
+          "ip.flags": "0x02",
+          "ip.flags_tree": {
+            "ip.flags.rb": "0",
+            "ip.flags.df": "1",
+            "ip.flags.mf": "0"
+          },
+          "ip.frag_offset": "0",
+          "ip.ttl": "255",
+          "ip.proto": "6",
+          "ip.checksum": "0xcc61",
+          "ip.checksum.status": "2",
+          "ip.src": "10.0.77.164",
+          "ip.addr": "10.0.77.164",
+          "ip.src_host": "10.0.77.164",
+          "ip.host": "10.0.77.164",
+          "ip.dst": "10.0.77.132",
+          "ip.addr": "10.0.77.132",
+          "ip.dst_host": "10.0.77.132",
+          "ip.host": "10.0.77.132"
+        },
+        "tcp": {
+          "tcp.srcport": "9443",
+          "tcp.dstport": "65197",
+          "tcp.port": "9443",
+          "tcp.port": "65197",
+          "tcp.stream": "45",
+          "tcp.completeness": "63",
+          "tcp.len": "0",
+          "tcp.seq": "0",
+          "tcp.seq_raw": "1394029516",
+          "tcp.nxtseq": "1",
+          "tcp.ack": "1",
+          "tcp.ack_raw": "2271845694",
+          "tcp.hdr_len": "32",
+          "tcp.flags": "0x0012",
+          "tcp.flags_tree": {
+            "tcp.flags.res": "0",
+            "tcp.flags.ae": "0",
+            "tcp.flags.cwr": "0",
+            "tcp.flags.ece": "0",
+            "tcp.flags.urg": "0",
+            "tcp.flags.ack": "1",
+            "tcp.flags.push": "0",
+            "tcp.flags.reset": "0",
+            "tcp.flags.syn": "1",
+            "tcp.flags.syn_tree": {
+              "_ws.expert": {
+                "tcp.connection.synack": "",
+                "_ws.expert.message": "Connection establish acknowledge (SYN+ACK): server port 9443",
+                "_ws.expert.severity": "2097152",
+                "_ws.expert.group": "33554432"
+              }
+            },
+            "tcp.flags.fin": "0",
+            "tcp.flags.str": "·······A··S·"
+          },
+          "tcp.window_size_value": "8190",
+          "tcp.window_size": "8190",
+          "tcp.checksum": "0xd0bd",
+          "tcp.checksum.status": "2",
+          "tcp.urgent_pointer": "0",
+          "tcp.options": "02:04:05:b4:01:03:03:08:01:01:04:02",
+          "tcp.options_tree": {
+            "tcp.options.mss": "02:04:05:b4",
+            "tcp.options.mss_tree": {
+              "tcp.option_kind": "2",
+              "tcp.option_len": "4",
+              "tcp.options.mss_val": "1460"
+            },
+            "tcp.options.nop": "01",
+            "tcp.options.nop_tree": {
+              "tcp.option_kind": "1"
+            },
+            "tcp.options.wscale": "03:03:08",
+            "tcp.options.wscale_tree": {
+              "tcp.option_kind": "3",
+              "tcp.option_len": "3",
+              "tcp.options.wscale.shift": "8",
+              "tcp.options.wscale.multiplier": "256"
+            },
+            "tcp.options.nop": "01",
+            "tcp.options.nop_tree": {
+              "tcp.option_kind": "1"
+            },
+            "tcp.options.nop": "01",
+            "tcp.options.nop_tree": {
+              "tcp.option_kind": "1"
+            },
+            "tcp.options.sack_perm": "04:02",
+            "tcp.options.sack_perm_tree": {
+              "tcp.option_kind": "4",
+              "tcp.option_len": "2"
+            }
+          },
+          "Timestamps": {
+            "tcp.time_relative": "0.000211000",
+            "tcp.time_delta": "0.000211000"
+          },
+          "tcp.analysis": {
+            "tcp.analysis.acks_frame": "2223",
+            "tcp.analysis.ack_rtt": "0.000211000",
+            "tcp.analysis.initial_rtt": "0.000234000"
+          }
+        }
+      }
+    }
+  },
+  {
+    "_index": "packets-2023-05-30",
+    "_type": "doc",
+    "_score": null,
+    "_source": {
+      "layers": {
+        "frame": {
+          "frame.section_number": "1",
+          "frame.interface_id": "0",
+          "frame.interface_id_tree": {
+            "frame.interface_name": "\\Device\\NPF_{52CA9201-C41F-47AB-A285-066C8DBA161D}",
+            "frame.interface_description": "Ethernet0"
+          },
+          "frame.encap_type": "1",
+          "frame.time": "May 30, 2023 15:49:01.932925000 Russia TZ 2 Standard Time",
+          "frame.offset_shift": "0.000000000",
+          "frame.time_epoch": "1685450941.932925000",
+          "frame.time_delta": "0.000023000",
+          "frame.time_delta_displayed": "0.000023000",
+          "frame.time_relative": "6.051657000",
+          "frame.number": "2225",
+          "frame.len": "54",
+          "frame.cap_len": "54",
+          "frame.marked": "0",
+          "frame.ignored": "0",
+          "frame.protocols": "eth:ethertype:ip:tcp",
+          "frame.coloring_rule.name": "TCP",
+          "frame.coloring_rule.string": "tcp"
+        },
+        "eth": {
+          "eth.dst": "00:50:56:b9:a8:14",
+          "eth.dst_tree": {
+            "eth.dst_resolved": "VMware_b9:a8:14",
+            "eth.dst.oui": "20566",
+            "eth.dst.oui_resolved": "VMware, Inc.",
+            "eth.addr": "00:50:56:b9:a8:14",
+            "eth.addr_resolved": "VMware_b9:a8:14",
+            "eth.addr.oui": "20566",
+            "eth.addr.oui_resolved": "VMware, Inc.",
+            "eth.dst.lg": "0",
+            "eth.lg": "0",
+            "eth.dst.ig": "0",
+            "eth.ig": "0"
+          },
+          "eth.src": "00:50:56:b9:60:85",
+          "eth.src_tree": {
+            "eth.src_resolved": "VMware_b9:60:85",
+            "eth.src.oui": "20566",
+            "eth.src.oui_resolved": "VMware, Inc.",
+            "eth.addr": "00:50:56:b9:60:85",
+            "eth.addr_resolved": "VMware_b9:60:85",
+            "eth.addr.oui": "20566",
+            "eth.addr.oui_resolved": "VMware, Inc.",
+            "eth.src.lg": "0",
+            "eth.lg": "0",
+            "eth.src.ig": "0",
+            "eth.ig": "0"
+          },
+          "eth.type": "0x0800"
+        },
+        "ip": {
+          "ip.version": "4",
+          "ip.hdr_len": "20",
+          "ip.dsfield": "0x00",
+          "ip.dsfield_tree": {
+            "ip.dsfield.dscp": "0",
+            "ip.dsfield.ecn": "0"
+          },
+          "ip.len": "40",
+          "ip.id": "0x4312",
+          "ip.flags": "0x02",
+          "ip.flags_tree": {
+            "ip.flags.rb": "0",
+            "ip.flags.df": "1",
+            "ip.flags.mf": "0"
+          },
+          "ip.frag_offset": "0",
+          "ip.ttl": "128",
+          "ip.proto": "6",
+          "ip.checksum": "0x0000",
+          "ip.checksum.status": "2",
+          "ip.src": "10.0.77.132",
+          "ip.addr": "10.0.77.132",
+          "ip.src_host": "10.0.77.132",
+          "ip.host": "10.0.77.132",
+          "ip.dst": "10.0.77.164",
+          "ip.addr": "10.0.77.164",
+          "ip.dst_host": "10.0.77.164",
+          "ip.host": "10.0.77.164"
+        },
+        "tcp": {
+          "tcp.srcport": "65197",
+          "tcp.dstport": "9443",
+          "tcp.port": "65197",
+          "tcp.port": "9443",
+          "tcp.stream": "45",
+          "tcp.completeness": "63",
+          "tcp.len": "0",
+          "tcp.seq": "1",
+          "tcp.seq_raw": "2271845694",
+          "tcp.nxtseq": "1",
+          "tcp.ack": "1",
+          "tcp.ack_raw": "1394029517",
+          "tcp.hdr_len": "20",
+          "tcp.flags": "0x0010",
+          "tcp.flags_tree": {
+            "tcp.flags.res": "0",
+            "tcp.flags.ae": "0",
+            "tcp.flags.cwr": "0",
+            "tcp.flags.ece": "0",
+            "tcp.flags.urg": "0",
+            "tcp.flags.ack": "1",
+            "tcp.flags.push": "0",
+            "tcp.flags.reset": "0",
+            "tcp.flags.syn": "0",
+            "tcp.flags.fin": "0",
+            "tcp.flags.str": "·······A····"
+          },
+          "tcp.window_size_value": "513",
+          "tcp.window_size": "131328",
+          "tcp.window_size_scalefactor": "256",
+          "tcp.checksum": "0xaf42",
+          "tcp.checksum.status": "2",
+          "tcp.urgent_pointer": "0",
+          "Timestamps": {
+            "tcp.time_relative": "0.000234000",
+            "tcp.time_delta": "0.000023000"
+          },
+          "tcp.analysis": {
+            "tcp.analysis.acks_frame": "2224",
+            "tcp.analysis.ack_rtt": "0.000023000",
+            "tcp.analysis.initial_rtt": "0.000234000"
+          }
+        }
+      }
+    }
+  },
+  {
+    "_index": "packets-2023-05-30",
+    "_type": "doc",
+    "_score": null,
+    "_source": {
+      "layers": {
+        "frame": {
+          "frame.section_number": "1",
+          "frame.interface_id": "0",
+          "frame.interface_id_tree": {
+            "frame.interface_name": "\\Device\\NPF_{52CA9201-C41F-47AB-A285-066C8DBA161D}",
+            "frame.interface_description": "Ethernet0"
+          },
+          "frame.encap_type": "1",
+          "frame.time": "May 30, 2023 15:49:01.933676000 Russia TZ 2 Standard Time",
+          "frame.offset_shift": "0.000000000",
+          "frame.time_epoch": "1685450941.933676000",
+          "frame.time_delta": "0.000751000",
+          "frame.time_delta_displayed": "0.000751000",
+          "frame.time_relative": "6.052408000",
+          "frame.number": "2226",
+          "frame.len": "60",
+          "frame.cap_len": "60",
+          "frame.marked": "0",
+          "frame.ignored": "0",
+          "frame.protocols": "eth:ethertype:ip:tcp",
+          "frame.coloring_rule.name": "TCP",
+          "frame.coloring_rule.string": "tcp"
+        },
+        "eth": {
+          "eth.dst": "00:50:56:b9:60:85",
+          "eth.dst_tree": {
+            "eth.dst_resolved": "VMware_b9:60:85",
+            "eth.dst.oui": "20566",
+            "eth.dst.oui_resolved": "VMware, Inc.",
+            "eth.addr": "00:50:56:b9:60:85",
+            "eth.addr_resolved": "VMware_b9:60:85",
+            "eth.addr.oui": "20566",
+            "eth.addr.oui_resolved": "VMware, Inc.",
+            "eth.dst.lg": "0",
+            "eth.lg": "0",
+            "eth.dst.ig": "0",
+            "eth.ig": "0"
+          },
+          "eth.src": "00:50:56:b9:a8:14",
+          "eth.src_tree": {
+            "eth.src_resolved": "VMware_b9:a8:14",
+            "eth.src.oui": "20566",
+            "eth.src.oui_resolved": "VMware, Inc.",
+            "eth.addr": "00:50:56:b9:a8:14",
+            "eth.addr_resolved": "VMware_b9:a8:14",
+            "eth.addr.oui": "20566",
+            "eth.addr.oui_resolved": "VMware, Inc.",
+            "eth.src.lg": "0",
+            "eth.lg": "0",
+            "eth.src.ig": "0",
+            "eth.ig": "0"
+          },
+          "eth.type": "0x0800",
+          "eth.padding": "00:00:00:00:00:00"
+        },
+        "ip": {
+          "ip.version": "4",
+          "ip.hdr_len": "20",
+          "ip.dsfield": "0x00",
+          "ip.dsfield_tree": {
+            "ip.dsfield.dscp": "0",
+            "ip.dsfield.ecn": "0"
+          },
+          "ip.len": "40",
+          "ip.id": "0x78d5",
+          "ip.flags": "0x02",
+          "ip.flags_tree": {
+            "ip.flags.rb": "0",
+            "ip.flags.df": "1",
+            "ip.flags.mf": "0"
+          },
+          "ip.frag_offset": "0",
+          "ip.ttl": "63",
+          "ip.proto": "6",
+          "ip.checksum": "0x13d3",
+          "ip.checksum.status": "2",
+          "ip.src": "10.0.77.164",
+          "ip.addr": "10.0.77.164",
+          "ip.src_host": "10.0.77.164",
+          "ip.host": "10.0.77.164",
+          "ip.dst": "10.0.77.132",
+          "ip.addr": "10.0.77.132",
+          "ip.dst_host": "10.0.77.132",
+          "ip.host": "10.0.77.132"
+        },
+        "tcp": {
+          "tcp.srcport": "9443",
+          "tcp.dstport": "65197",
+          "tcp.port": "9443",
+          "tcp.port": "65197",
+          "tcp.stream": "45",
+          "tcp.completeness": "63",
+          "tcp.len": "0",
+          "tcp.seq": "1",
+          "tcp.seq_raw": "1394029517",
+          "tcp.nxtseq": "1",
+          "tcp.ack": "1",
+          "tcp.ack_raw": "2271845694",
+          "tcp.hdr_len": "20",
+          "tcp.flags": "0x0010",
+          "tcp.flags_tree": {
+            "tcp.flags.res": "0",
+            "tcp.flags.ae": "0",
+            "tcp.flags.cwr": "0",
+            "tcp.flags.ece": "0",
+            "tcp.flags.urg": "0",
+            "tcp.flags.ack": "1",
+            "tcp.flags.push": "0",
+            "tcp.flags.reset": "0",
+            "tcp.flags.syn": "0",
+            "tcp.flags.fin": "0",
+            "tcp.flags.str": "·······A····"
+          },
+          "tcp.window_size_value": "116",
+          "tcp.window_size": "29696",
+          "tcp.window_size_scalefactor": "256",
+          "tcp.checksum": "0x311b",
+          "tcp.checksum.status": "2",
+          "tcp.urgent_pointer": "0",
+          "Timestamps": {
+            "tcp.time_relative": "0.000985000",
+            "tcp.time_delta": "0.000751000"
+          },
+          "tcp.analysis": {
+            "tcp.analysis.initial_rtt": "0.000234000",
+            "tcp.analysis.flags": {
+              "_ws.expert": {
+                "tcp.analysis.window_update": "",
+                "_ws.expert.message": "TCP window update",
+                "_ws.expert.severity": "2097152",
+                "_ws.expert.group": "33554432"
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  {
+    "_index": "packets-2023-05-30",
+    "_type": "doc",
+    "_score": null,
+    "_source": {
+      "layers": {
+        "frame": {
+          "frame.section_number": "1",
+          "frame.interface_id": "0",
+          "frame.interface_id_tree": {
+            "frame.interface_name": "\\Device\\NPF_{52CA9201-C41F-47AB-A285-066C8DBA161D}",
+            "frame.interface_description": "Ethernet0"
+          },
+          "frame.encap_type": "1",
+          "frame.time": "May 30, 2023 15:49:01.956826000 Russia TZ 2 Standard Time",
+          "frame.offset_shift": "0.000000000",
+          "frame.time_epoch": "1685450941.956826000",
+          "frame.time_delta": "0.001802000",
+          "frame.time_delta_displayed": "0.023150000",
+          "frame.time_relative": "6.075558000",
+          "frame.number": "2228",
+          "frame.len": "235",
+          "frame.cap_len": "235",
+          "frame.marked": "0",
+          "frame.ignored": "0",
+          "frame.protocols": "eth:ethertype:ip:tcp:tls",
+          "frame.coloring_rule.name": "TCP",
+          "frame.coloring_rule.string": "tcp"
+        },
+        "eth": {
+          "eth.dst": "00:50:56:b9:a8:14",
+          "eth.dst_tree": {
+            "eth.dst_resolved": "VMware_b9:a8:14",
+            "eth.dst.oui": "20566",
+            "eth.dst.oui_resolved": "VMware, Inc.",
+            "eth.addr": "00:50:56:b9:a8:14",
+            "eth.addr_resolved": "VMware_b9:a8:14",
+            "eth.addr.oui": "20566",
+            "eth.addr.oui_resolved": "VMware, Inc.",
+            "eth.dst.lg": "0",
+            "eth.lg": "0",
+            "eth.dst.ig": "0",
+            "eth.ig": "0"
+          },
+          "eth.src": "00:50:56:b9:60:85",
+          "eth.src_tree": {
+            "eth.src_resolved": "VMware_b9:60:85",
+            "eth.src.oui": "20566",
+            "eth.src.oui_resolved": "VMware, Inc.",
+            "eth.addr": "00:50:56:b9:60:85",
+            "eth.addr_resolved": "VMware_b9:60:85",
+            "eth.addr.oui": "20566",
+            "eth.addr.oui_resolved": "VMware, Inc.",
+            "eth.src.lg": "0",
+            "eth.lg": "0",
+            "eth.src.ig": "0",
+            "eth.ig": "0"
+          },
+          "eth.type": "0x0800"
+        },
+        "ip": {
+          "ip.version": "4",
+          "ip.hdr_len": "20",
+          "ip.dsfield": "0x00",
+          "ip.dsfield_tree": {
+            "ip.dsfield.dscp": "0",
+            "ip.dsfield.ecn": "0"
+          },
+          "ip.len": "221",
+          "ip.id": "0x4313",
+          "ip.flags": "0x02",
+          "ip.flags_tree": {
+            "ip.flags.rb": "0",
+            "ip.flags.df": "1",
+            "ip.flags.mf": "0"
+          },
+          "ip.frag_offset": "0",
+          "ip.ttl": "128",
+          "ip.proto": "6",
+          "ip.checksum": "0x0000",
+          "ip.checksum.status": "2",
+          "ip.src": "10.0.77.132",
+          "ip.addr": "10.0.77.132",
+          "ip.src_host": "10.0.77.132",
+          "ip.host": "10.0.77.132",
+          "ip.dst": "10.0.77.164",
+          "ip.addr": "10.0.77.164",
+          "ip.dst_host": "10.0.77.164",
+          "ip.host": "10.0.77.164"
+        },
+        "tcp": {
+          "tcp.srcport": "65197",
+          "tcp.dstport": "9443",
+          "tcp.port": "65197",
+          "tcp.port": "9443",
+          "tcp.stream": "45",
+          "tcp.completeness": "63",
+          "tcp.len": "181",
+          "tcp.seq": "1",
+          "tcp.seq_raw": "2271845694",
+          "tcp.nxtseq": "182",
+          "tcp.ack": "1",
+          "tcp.ack_raw": "1394029517",
+          "tcp.hdr_len": "20",
+          "tcp.flags": "0x0018",
+          "tcp.flags_tree": {
+            "tcp.flags.res": "0",
+            "tcp.flags.ae": "0",
+            "tcp.flags.cwr": "0",
+            "tcp.flags.ece": "0",
+            "tcp.flags.urg": "0",
+            "tcp.flags.ack": "1",
+            "tcp.flags.push": "1",
+            "tcp.flags.reset": "0",
+            "tcp.flags.syn": "0",
+            "tcp.flags.fin": "0",
+            "tcp.flags.str": "·······AP···"
+          },
+          "tcp.window_size_value": "513",
+          "tcp.window_size": "131328",
+          "tcp.window_size_scalefactor": "256",
+          "tcp.checksum": "0xaff7",
+          "tcp.checksum.status": "2",
+          "tcp.urgent_pointer": "0",
+          "Timestamps": {
+            "tcp.time_relative": "0.024135000",
+            "tcp.time_delta": "0.023150000"
+          },
+          "tcp.analysis": {
+            "tcp.analysis.initial_rtt": "0.000234000",
+            "tcp.analysis.bytes_in_flight": "181",
+            "tcp.analysis.push_bytes_sent": "181"
+          },
+          "tcp.payload": "16:03:03:00:b0:01:00:00:ac:03:03:64:75:f0:bd:67:5c:6c:ff:45:be:46:51:91:12:22:df:4c:2b:05:2f:9f:89:fb:7a:c3:95:46:df:2c:23:45:d5:00:00:28:00:2f:00:35:00:33:00:39:00:3c:00:3d:00:9c:00:9d:00:9e:00:9f:c0:28:c0:27:c0:14:c0:13:c0:2c:c0:2b:c0:24:c0:23:c0:0a:c0:09:01:00:00:5b:00:00:00:22:00:20:00:00:1d:61:70:69:2d:67:61:74:65:77:61:79:2d:74:2e:63:6f:72:70:2e:73:6b:62:62:61:6e:6b:2e:72:75:00:0a:00:06:00:04:00:17:00:18:00:0b:00:02:01:00:00:0d:00:14:00:12:06:01:06:03:04:01:05:01:02:01:04:03:05:03:02:03:02:02:00:23:00:00:00:17:00:00:ff:01:00:01:00"
+        },
+        "tls": {
+          "tls.record": {
+            "tls.record.content_type": "22",
+            "tls.record.version": "0x0303",
+            "tls.record.length": "176",
+            "tls.handshake": {
+              "tls.handshake.type": "1",
+              "tls.handshake.length": "172",
+              "tls.handshake.version": "0x0303",
+              "tls.handshake.random": "64:75:f0:bd:67:5c:6c:ff:45:be:46:51:91:12:22:df:4c:2b:05:2f:9f:89:fb:7a:c3:95:46:df:2c:23:45:d5",
+              "tls.handshake.random_tree": {
+                "tls.handshake.random_time": "May 30, 2023 15:49:01.000000000 Russia TZ 2 Standard Time",
+                "tls.handshake.random_bytes": "67:5c:6c:ff:45:be:46:51:91:12:22:df:4c:2b:05:2f:9f:89:fb:7a:c3:95:46:df:2c:23:45:d5"
+              },
+              "tls.handshake.session_id_length": "0",
+              "tls.handshake.cipher_suites_length": "40",
+              "tls.handshake.ciphersuites": {
+                "tls.handshake.ciphersuite": "0x002f",
+                "tls.handshake.ciphersuite": "0x0035",
+                "tls.handshake.ciphersuite": "0x0033",
+                "tls.handshake.ciphersuite": "0x0039",
+                "tls.handshake.ciphersuite": "0x003c",
+                "tls.handshake.ciphersuite": "0x003d",
+                "tls.handshake.ciphersuite": "0x009c",
+                "tls.handshake.ciphersuite": "0x009d",
+                "tls.handshake.ciphersuite": "0x009e",
+                "tls.handshake.ciphersuite": "0x009f",
+                "tls.handshake.ciphersuite": "0xc028",
+                "tls.handshake.ciphersuite": "0xc027",
+                "tls.handshake.ciphersuite": "0xc014",
+                "tls.handshake.ciphersuite": "0xc013",
+                "tls.handshake.ciphersuite": "0xc02c",
+                "tls.handshake.ciphersuite": "0xc02b",
+                "tls.handshake.ciphersuite": "0xc024",
+                "tls.handshake.ciphersuite": "0xc023",
+                "tls.handshake.ciphersuite": "0xc00a",
+                "tls.handshake.ciphersuite": "0xc009"
+              },
+              "tls.handshake.comp_methods_length": "1",
+              "tls.handshake.comp_methods": {
+                "tls.handshake.comp_method": "0"
+              },
+              "tls.handshake.extensions_length": "91",
+              "Extension: server_name (len=34)": {
+                "tls.handshake.extension.type": "0",
+                "tls.handshake.extension.len": "34",
+                "Server Name Indication extension": {
+                  "tls.handshake.extensions_server_name_list_len": "32",
+                  "tls.handshake.extensions_server_name_type": "0",
+                  "tls.handshake.extensions_server_name_len": "29",
+                  "tls.handshake.extensions_server_name": "api-gateway-t.corp.skbbank.ru"
+                }
+              },
+              "Extension: supported_groups (len=6)": {
+                "tls.handshake.extension.type": "10",
+                "tls.handshake.extension.len": "6",
+                "tls.handshake.extensions_supported_groups_length": "4",
+                "tls.handshake.extensions_supported_groups": {
+                  "tls.handshake.extensions_supported_group": "0x0017",
+                  "tls.handshake.extensions_supported_group": "0x0018"
+                }
+              },
+              "Extension: ec_point_formats (len=2)": {
+                "tls.handshake.extension.type": "11",
+                "tls.handshake.extension.len": "2",
+                "tls.handshake.extensions_ec_point_formats_length": "1",
+                "tls.handshake.extensions_ec_point_formats": {
+                  "tls.handshake.extensions_ec_point_format": "0"
+                }
+              },
+              "Extension: signature_algorithms (len=20)": {
+                "tls.handshake.extension.type": "13",
+                "tls.handshake.extension.len": "20",
+                "tls.handshake.sig_hash_alg_len": "18",
+                "tls.handshake.sig_hash_algs": {
+                  "tls.handshake.sig_hash_alg": "0x0601",
+                  "tls.handshake.sig_hash_alg_tree": {
+                    "tls.handshake.sig_hash_hash": "6",
+                    "tls.handshake.sig_hash_sig": "1"
+                  },
+                  "tls.handshake.sig_hash_alg": "0x0603",
+                  "tls.handshake.sig_hash_alg_tree": {
+                    "tls.handshake.sig_hash_hash": "6",
+                    "tls.handshake.sig_hash_sig": "3"
+                  },
+                  "tls.handshake.sig_hash_alg": "0x0401",
+                  "tls.handshake.sig_hash_alg_tree": {
+                    "tls.handshake.sig_hash_hash": "4",
+                    "tls.handshake.sig_hash_sig": "1"
+                  },
+                  "tls.handshake.sig_hash_alg": "0x0501",
+                  "tls.handshake.sig_hash_alg_tree": {
+                    "tls.handshake.sig_hash_hash": "5",
+                    "tls.handshake.sig_hash_sig": "1"
+                  },
+                  "tls.handshake.sig_hash_alg": "0x0201",
+                  "tls.handshake.sig_hash_alg_tree": {
+                    "tls.handshake.sig_hash_hash": "2",
+                    "tls.handshake.sig_hash_sig": "1"
+                  },
+                  "tls.handshake.sig_hash_alg": "0x0403",
+                  "tls.handshake.sig_hash_alg_tree": {
+                    "tls.handshake.sig_hash_hash": "4",
+                    "tls.handshake.sig_hash_sig": "3"
+                  },
+                  "tls.handshake.sig_hash_alg": "0x0503",
+                  "tls.handshake.sig_hash_alg_tree": {
+                    "tls.handshake.sig_hash_hash": "5",
+                    "tls.handshake.sig_hash_sig": "3"
+                  },
+                  "tls.handshake.sig_hash_alg": "0x0203",
+                  "tls.handshake.sig_hash_alg_tree": {
+                    "tls.handshake.sig_hash_hash": "2",
+                    "tls.handshake.sig_hash_sig": "3"
+                  },
+                  "tls.handshake.sig_hash_alg": "0x0202",
+                  "tls.handshake.sig_hash_alg_tree": {
+                    "tls.handshake.sig_hash_hash": "2",
+                    "tls.handshake.sig_hash_sig": "2"
+                  }
+                }
+              },
+              "Extension: session_ticket (len=0)": {
+                "tls.handshake.extension.type": "35",
+                "tls.handshake.extension.len": "0",
+                "tls.handshake.extension.data": ""
+              },
+              "Extension: extended_master_secret (len=0)": {
+                "tls.handshake.extension.type": "23",
+                "tls.handshake.extension.len": "0"
+              },
+              "Extension: renegotiation_info (len=1)": {
+                "tls.handshake.extension.type": "65281",
+                "tls.handshake.extension.len": "1",
+                "Renegotiation Info extension": {
+                  "tls.handshake.extensions_reneg_info_len": "0"
+                }
+              },
+              "tls.handshake.ja3_full": "771,47-53-51-57-60-61-156-157-158-159-49192-49191-49172-49171-49196-49195-49188-49187-49162-49161,0-10-11-13-35-23-65281,23-24,0",
+              "tls.handshake.ja3": "a6f138362b0dacc17e04f7ec4653db59"
+            }
+          }
+        }
+      }
+    }
+  },
+  {
+    "_index": "packets-2023-05-30",
+    "_type": "doc",
+    "_score": null,
+    "_source": {
+      "layers": {
+        "frame": {
+          "frame.section_number": "1",
+          "frame.interface_id": "0",
+          "frame.interface_id_tree": {
+            "frame.interface_name": "\\Device\\NPF_{52CA9201-C41F-47AB-A285-066C8DBA161D}",
+            "frame.interface_description": "Ethernet0"
+          },
+          "frame.encap_type": "1",
+          "frame.time": "May 30, 2023 15:49:01.957199000 Russia TZ 2 Standard Time",
+          "frame.offset_shift": "0.000000000",
+          "frame.time_epoch": "1685450941.957199000",
+          "frame.time_delta": "0.000373000",
+          "frame.time_delta_displayed": "0.000373000",
+          "frame.time_relative": "6.075931000",
+          "frame.number": "2229",
+          "frame.len": "60",
+          "frame.cap_len": "60",
+          "frame.marked": "0",
+          "frame.ignored": "0",
+          "frame.protocols": "eth:ethertype:ip:tcp",
+          "frame.coloring_rule.name": "TCP",
+          "frame.coloring_rule.string": "tcp"
+        },
+        "eth": {
+          "eth.dst": "00:50:56:b9:60:85",
+          "eth.dst_tree": {
+            "eth.dst_resolved": "VMware_b9:60:85",
+            "eth.dst.oui": "20566",
+            "eth.dst.oui_resolved": "VMware, Inc.",
+            "eth.addr": "00:50:56:b9:60:85",
+            "eth.addr_resolved": "VMware_b9:60:85",
+            "eth.addr.oui": "20566",
+            "eth.addr.oui_resolved": "VMware, Inc.",
+            "eth.dst.lg": "0",
+            "eth.lg": "0",
+            "eth.dst.ig": "0",
+            "eth.ig": "0"
+          },
+          "eth.src": "00:50:56:b9:a8:14",
+          "eth.src_tree": {
+            "eth.src_resolved": "VMware_b9:a8:14",
+            "eth.src.oui": "20566",
+            "eth.src.oui_resolved": "VMware, Inc.",
+            "eth.addr": "00:50:56:b9:a8:14",
+            "eth.addr_resolved": "VMware_b9:a8:14",
+            "eth.addr.oui": "20566",
+            "eth.addr.oui_resolved": "VMware, Inc.",
+            "eth.src.lg": "0",
+            "eth.lg": "0",
+            "eth.src.ig": "0",
+            "eth.ig": "0"
+          },
+          "eth.type": "0x0800",
+          "eth.padding": "00:00:00:00:00:00"
+        },
+        "ip": {
+          "ip.version": "4",
+          "ip.hdr_len": "20",
+          "ip.dsfield": "0x00",
+          "ip.dsfield_tree": {
+            "ip.dsfield.dscp": "0",
+            "ip.dsfield.ecn": "0"
+          },
+          "ip.len": "40",
+          "ip.id": "0x78d6",
+          "ip.flags": "0x02",
+          "ip.flags_tree": {
+            "ip.flags.rb": "0",
+            "ip.flags.df": "1",
+            "ip.flags.mf": "0"
+          },
+          "ip.frag_offset": "0",
+          "ip.ttl": "63",
+          "ip.proto": "6",
+          "ip.checksum": "0x13d2",
+          "ip.checksum.status": "2",
+          "ip.src": "10.0.77.164",
+          "ip.addr": "10.0.77.164",
+          "ip.src_host": "10.0.77.164",
+          "ip.host": "10.0.77.164",
+          "ip.dst": "10.0.77.132",
+          "ip.addr": "10.0.77.132",
+          "ip.dst_host": "10.0.77.132",
+          "ip.host": "10.0.77.132"
+        },
+        "tcp": {
+          "tcp.srcport": "9443",
+          "tcp.dstport": "65197",
+          "tcp.port": "9443",
+          "tcp.port": "65197",
+          "tcp.stream": "45",
+          "tcp.completeness": "63",
+          "tcp.len": "0",
+          "tcp.seq": "1",
+          "tcp.seq_raw": "1394029517",
+          "tcp.nxtseq": "1",
+          "tcp.ack": "182",
+          "tcp.ack_raw": "2271845875",
+          "tcp.hdr_len": "20",
+          "tcp.flags": "0x0010",
+          "tcp.flags_tree": {
+            "tcp.flags.res": "0",
+            "tcp.flags.ae": "0",
+            "tcp.flags.cwr": "0",
+            "tcp.flags.ece": "0",
+            "tcp.flags.urg": "0",
+            "tcp.flags.ack": "1",
+            "tcp.flags.push": "0",
+            "tcp.flags.reset": "0",
+            "tcp.flags.syn": "0",
+            "tcp.flags.fin": "0",
+            "tcp.flags.str": "·······A····"
+          },
+          "tcp.window_size_value": "120",
+          "tcp.window_size": "30720",
+          "tcp.window_size_scalefactor": "256",
+          "tcp.checksum": "0x3062",
+          "tcp.checksum.status": "2",
+          "tcp.urgent_pointer": "0",
+          "Timestamps": {
+            "tcp.time_relative": "0.024508000",
+            "tcp.time_delta": "0.000373000"
+          },
+          "tcp.analysis": {
+            "tcp.analysis.acks_frame": "2228",
+            "tcp.analysis.ack_rtt": "0.000373000",
+            "tcp.analysis.initial_rtt": "0.000234000"
+          }
+        }
+      }
+    }
+  },
+  {
+    "_index": "packets-2023-05-30",
+    "_type": "doc",
+    "_score": null,
+    "_source": {
+      "layers": {
+        "frame": {
+          "frame.section_number": "1",
+          "frame.interface_id": "0",
+          "frame.interface_id_tree": {
+            "frame.interface_name": "\\Device\\NPF_{52CA9201-C41F-47AB-A285-066C8DBA161D}",
+            "frame.interface_description": "Ethernet0"
+          },
+          "frame.encap_type": "1",
+          "frame.time": "May 30, 2023 15:49:01.958072000 Russia TZ 2 Standard Time",
+          "frame.offset_shift": "0.000000000",
+          "frame.time_epoch": "1685450941.958072000",
+          "frame.time_delta": "0.000873000",
+          "frame.time_delta_displayed": "0.000873000",
+          "frame.time_relative": "6.076804000",
+          "frame.number": "2230",
+          "frame.len": "61",
+          "frame.cap_len": "61",
+          "frame.marked": "0",
+          "frame.ignored": "0",
+          "frame.protocols": "eth:ethertype:ip:tcp:tls",
+          "frame.coloring_rule.name": "TCP",
+          "frame.coloring_rule.string": "tcp"
+        },
+        "eth": {
+          "eth.dst": "00:50:56:b9:60:85",
+          "eth.dst_tree": {
+            "eth.dst_resolved": "VMware_b9:60:85",
+            "eth.dst.oui": "20566",
+            "eth.dst.oui_resolved": "VMware, Inc.",
+            "eth.addr": "00:50:56:b9:60:85",
+            "eth.addr_resolved": "VMware_b9:60:85",
+            "eth.addr.oui": "20566",
+            "eth.addr.oui_resolved": "VMware, Inc.",
+            "eth.dst.lg": "0",
+            "eth.lg": "0",
+            "eth.dst.ig": "0",
+            "eth.ig": "0"
+          },
+          "eth.src": "00:50:56:b9:a8:14",
+          "eth.src_tree": {
+            "eth.src_resolved": "VMware_b9:a8:14",
+            "eth.src.oui": "20566",
+            "eth.src.oui_resolved": "VMware, Inc.",
+            "eth.addr": "00:50:56:b9:a8:14",
+            "eth.addr_resolved": "VMware_b9:a8:14",
+            "eth.addr.oui": "20566",
+            "eth.addr.oui_resolved": "VMware, Inc.",
+            "eth.src.lg": "0",
+            "eth.lg": "0",
+            "eth.src.ig": "0",
+            "eth.ig": "0"
+          },
+          "eth.type": "0x0800"
+        },
+        "ip": {
+          "ip.version": "4",
+          "ip.hdr_len": "20",
+          "ip.dsfield": "0x00",
+          "ip.dsfield_tree": {
+            "ip.dsfield.dscp": "0",
+            "ip.dsfield.ecn": "0"
+          },
+          "ip.len": "47",
+          "ip.id": "0x78d7",
+          "ip.flags": "0x02",
+          "ip.flags_tree": {
+            "ip.flags.rb": "0",
+            "ip.flags.df": "1",
+            "ip.flags.mf": "0"
+          },
+          "ip.frag_offset": "0",
+          "ip.ttl": "63",
+          "ip.proto": "6",
+          "ip.checksum": "0x13ca",
+          "ip.checksum.status": "2",
+          "ip.src": "10.0.77.164",
+          "ip.addr": "10.0.77.164",
+          "ip.src_host": "10.0.77.164",
+          "ip.host": "10.0.77.164",
+          "ip.dst": "10.0.77.132",
+          "ip.addr": "10.0.77.132",
+          "ip.dst_host": "10.0.77.132",
+          "ip.host": "10.0.77.132"
+        },
+        "tcp": {
+          "tcp.srcport": "9443",
+          "tcp.dstport": "65197",
+          "tcp.port": "9443",
+          "tcp.port": "65197",
+          "tcp.stream": "45",
+          "tcp.completeness": "63",
+          "tcp.len": "7",
+          "tcp.seq": "1",
+          "tcp.seq_raw": "1394029517",
+          "tcp.nxtseq": "8",
+          "tcp.ack": "182",
+          "tcp.ack_raw": "2271845875",
+          "tcp.hdr_len": "20",
+          "tcp.flags": "0x0018",
+          "tcp.flags_tree": {
+            "tcp.flags.res": "0",
+            "tcp.flags.ae": "0",
+            "tcp.flags.cwr": "0",
+            "tcp.flags.ece": "0",
+            "tcp.flags.urg": "0",
+            "tcp.flags.ack": "1",
+            "tcp.flags.push": "1",
+            "tcp.flags.reset": "0",
+            "tcp.flags.syn": "0",
+            "tcp.flags.fin": "0",
+            "tcp.flags.str": "·······AP···"
+          },
+          "tcp.window_size_value": "120",
+          "tcp.window_size": "30720",
+          "tcp.window_size_scalefactor": "256",
+          "tcp.checksum": "0xee4d",
+          "tcp.checksum.status": "2",
+          "tcp.urgent_pointer": "0",
+          "Timestamps": {
+            "tcp.time_relative": "0.025381000",
+            "tcp.time_delta": "0.000873000"
+          },
+          "tcp.analysis": {
+            "tcp.analysis.initial_rtt": "0.000234000",
+            "tcp.analysis.bytes_in_flight": "7",
+            "tcp.analysis.push_bytes_sent": "7"
+          },
+          "tcp.payload": "15:03:03:00:02:02:28"
+        },
+        "tls": {
+          "tls.record": {
+            "tls.record.content_type": "21",
+            "tls.record.version": "0x0303",
+            "tls.record.length": "2",
+            "tls.alert_message": {
+              "tls.alert_message.level": "2",
+              "tls.alert_message.desc": "40"
+            }
+          }
+        }
+      }
+    }
+  },
+  {
+    "_index": "packets-2023-05-30",
+    "_type": "doc",
+    "_score": null,
+    "_source": {
+      "layers": {
+        "frame": {
+          "frame.section_number": "1",
+          "frame.interface_id": "0",
+          "frame.interface_id_tree": {
+            "frame.interface_name": "\\Device\\NPF_{52CA9201-C41F-47AB-A285-066C8DBA161D}",
+            "frame.interface_description": "Ethernet0"
+          },
+          "frame.encap_type": "1",
+          "frame.time": "May 30, 2023 15:49:01.958169000 Russia TZ 2 Standard Time",
+          "frame.offset_shift": "0.000000000",
+          "frame.time_epoch": "1685450941.958169000",
+          "frame.time_delta": "0.000097000",
+          "frame.time_delta_displayed": "0.000097000",
+          "frame.time_relative": "6.076901000",
+          "frame.number": "2231",
+          "frame.len": "60",
+          "frame.cap_len": "60",
+          "frame.marked": "0",
+          "frame.ignored": "0",
+          "frame.protocols": "eth:ethertype:ip:tcp",
+          "frame.coloring_rule.name": "TCP SYN/FIN",
+          "frame.coloring_rule.string": "tcp.flags & 0x02 || tcp.flags.fin == 1"
+        },
+        "eth": {
+          "eth.dst": "00:50:56:b9:60:85",
+          "eth.dst_tree": {
+            "eth.dst_resolved": "VMware_b9:60:85",
+            "eth.dst.oui": "20566",
+            "eth.dst.oui_resolved": "VMware, Inc.",
+            "eth.addr": "00:50:56:b9:60:85",
+            "eth.addr_resolved": "VMware_b9:60:85",
+            "eth.addr.oui": "20566",
+            "eth.addr.oui_resolved": "VMware, Inc.",
+            "eth.dst.lg": "0",
+            "eth.lg": "0",
+            "eth.dst.ig": "0",
+            "eth.ig": "0"
+          },
+          "eth.src": "00:50:56:b9:a8:14",
+          "eth.src_tree": {
+            "eth.src_resolved": "VMware_b9:a8:14",
+            "eth.src.oui": "20566",
+            "eth.src.oui_resolved": "VMware, Inc.",
+            "eth.addr": "00:50:56:b9:a8:14",
+            "eth.addr_resolved": "VMware_b9:a8:14",
+            "eth.addr.oui": "20566",
+            "eth.addr.oui_resolved": "VMware, Inc.",
+            "eth.src.lg": "0",
+            "eth.lg": "0",
+            "eth.src.ig": "0",
+            "eth.ig": "0"
+          },
+          "eth.type": "0x0800",
+          "eth.padding": "00:00:00:00:00:00"
+        },
+        "ip": {
+          "ip.version": "4",
+          "ip.hdr_len": "20",
+          "ip.dsfield": "0x00",
+          "ip.dsfield_tree": {
+            "ip.dsfield.dscp": "0",
+            "ip.dsfield.ecn": "0"
+          },
+          "ip.len": "40",
+          "ip.id": "0x78d8",
+          "ip.flags": "0x02",
+          "ip.flags_tree": {
+            "ip.flags.rb": "0",
+            "ip.flags.df": "1",
+            "ip.flags.mf": "0"
+          },
+          "ip.frag_offset": "0",
+          "ip.ttl": "63",
+          "ip.proto": "6",
+          "ip.checksum": "0x13d0",
+          "ip.checksum.status": "2",
+          "ip.src": "10.0.77.164",
+          "ip.addr": "10.0.77.164",
+          "ip.src_host": "10.0.77.164",
+          "ip.host": "10.0.77.164",
+          "ip.dst": "10.0.77.132",
+          "ip.addr": "10.0.77.132",
+          "ip.dst_host": "10.0.77.132",
+          "ip.host": "10.0.77.132"
+        },
+        "tcp": {
+          "tcp.srcport": "9443",
+          "tcp.dstport": "65197",
+          "tcp.port": "9443",
+          "tcp.port": "65197",
+          "tcp.stream": "45",
+          "tcp.completeness": "63",
+          "tcp.len": "0",
+          "tcp.seq": "8",
+          "tcp.seq_raw": "1394029524",
+          "tcp.nxtseq": "9",
+          "tcp.ack": "182",
+          "tcp.ack_raw": "2271845875",
+          "tcp.hdr_len": "20",
+          "tcp.flags": "0x0011",
+          "tcp.flags_tree": {
+            "tcp.flags.res": "0",
+            "tcp.flags.ae": "0",
+            "tcp.flags.cwr": "0",
+            "tcp.flags.ece": "0",
+            "tcp.flags.urg": "0",
+            "tcp.flags.ack": "1",
+            "tcp.flags.push": "0",
+            "tcp.flags.reset": "0",
+            "tcp.flags.syn": "0",
+            "tcp.flags.fin": "1",
+            "tcp.flags.fin_tree": {
+              "_ws.expert": {
+                "tcp.connection.fin": "",
+                "_ws.expert.message": "Connection finish (FIN)",
+                "_ws.expert.severity": "2097152",
+                "_ws.expert.group": "33554432"
+              }
+            },
+            "tcp.flags.str": "·······A···F",
+            "tcp.flags.str_tree": {
+              "_ws.expert": {
+                "tcp.connection.fin_active": "",
+                "_ws.expert.message": "This frame initiates the connection closing",
+                "_ws.expert.severity": "4194304",
+                "_ws.expert.group": "33554432"
+              }
+            }
+          },
+          "tcp.window_size_value": "120",
+          "tcp.window_size": "30720",
+          "tcp.window_size_scalefactor": "256",
+          "tcp.checksum": "0x305a",
+          "tcp.checksum.status": "2",
+          "tcp.urgent_pointer": "0",
+          "Timestamps": {
+            "tcp.time_relative": "0.025478000",
+            "tcp.time_delta": "0.000097000"
+          }
+        }
+      }
+    }
+  },
+  {
+    "_index": "packets-2023-05-30",
+    "_type": "doc",
+    "_score": null,
+    "_source": {
+      "layers": {
+        "frame": {
+          "frame.section_number": "1",
+          "frame.interface_id": "0",
+          "frame.interface_id_tree": {
+            "frame.interface_name": "\\Device\\NPF_{52CA9201-C41F-47AB-A285-066C8DBA161D}",
+            "frame.interface_description": "Ethernet0"
+          },
+          "frame.encap_type": "1",
+          "frame.time": "May 30, 2023 15:49:01.958181000 Russia TZ 2 Standard Time",
+          "frame.offset_shift": "0.000000000",
+          "frame.time_epoch": "1685450941.958181000",
+          "frame.time_delta": "0.000012000",
+          "frame.time_delta_displayed": "0.000012000",
+          "frame.time_relative": "6.076913000",
+          "frame.number": "2232",
+          "frame.len": "54",
+          "frame.cap_len": "54",
+          "frame.marked": "0",
+          "frame.ignored": "0",
+          "frame.protocols": "eth:ethertype:ip:tcp",
+          "frame.coloring_rule.name": "TCP",
+          "frame.coloring_rule.string": "tcp"
+        },
+        "eth": {
+          "eth.dst": "00:50:56:b9:a8:14",
+          "eth.dst_tree": {
+            "eth.dst_resolved": "VMware_b9:a8:14",
+            "eth.dst.oui": "20566",
+            "eth.dst.oui_resolved": "VMware, Inc.",
+            "eth.addr": "00:50:56:b9:a8:14",
+            "eth.addr_resolved": "VMware_b9:a8:14",
+            "eth.addr.oui": "20566",
+            "eth.addr.oui_resolved": "VMware, Inc.",
+            "eth.dst.lg": "0",
+            "eth.lg": "0",
+            "eth.dst.ig": "0",
+            "eth.ig": "0"
+          },
+          "eth.src": "00:50:56:b9:60:85",
+          "eth.src_tree": {
+            "eth.src_resolved": "VMware_b9:60:85",
+            "eth.src.oui": "20566",
+            "eth.src.oui_resolved": "VMware, Inc.",
+            "eth.addr": "00:50:56:b9:60:85",
+            "eth.addr_resolved": "VMware_b9:60:85",
+            "eth.addr.oui": "20566",
+            "eth.addr.oui_resolved": "VMware, Inc.",
+            "eth.src.lg": "0",
+            "eth.lg": "0",
+            "eth.src.ig": "0",
+            "eth.ig": "0"
+          },
+          "eth.type": "0x0800"
+        },
+        "ip": {
+          "ip.version": "4",
+          "ip.hdr_len": "20",
+          "ip.dsfield": "0x00",
+          "ip.dsfield_tree": {
+            "ip.dsfield.dscp": "0",
+            "ip.dsfield.ecn": "0"
+          },
+          "ip.len": "40",
+          "ip.id": "0x4314",
+          "ip.flags": "0x02",
+          "ip.flags_tree": {
+            "ip.flags.rb": "0",
+            "ip.flags.df": "1",
+            "ip.flags.mf": "0"
+          },
+          "ip.frag_offset": "0",
+          "ip.ttl": "128",
+          "ip.proto": "6",
+          "ip.checksum": "0x0000",
+          "ip.checksum.status": "2",
+          "ip.src": "10.0.77.132",
+          "ip.addr": "10.0.77.132",
+          "ip.src_host": "10.0.77.132",
+          "ip.host": "10.0.77.132",
+          "ip.dst": "10.0.77.164",
+          "ip.addr": "10.0.77.164",
+          "ip.dst_host": "10.0.77.164",
+          "ip.host": "10.0.77.164"
+        },
+        "tcp": {
+          "tcp.srcport": "65197",
+          "tcp.dstport": "9443",
+          "tcp.port": "65197",
+          "tcp.port": "9443",
+          "tcp.stream": "45",
+          "tcp.completeness": "63",
+          "tcp.len": "0",
+          "tcp.seq": "182",
+          "tcp.seq_raw": "2271845875",
+          "tcp.nxtseq": "182",
+          "tcp.ack": "9",
+          "tcp.ack_raw": "1394029525",
+          "tcp.hdr_len": "20",
+          "tcp.flags": "0x0010",
+          "tcp.flags_tree": {
+            "tcp.flags.res": "0",
+            "tcp.flags.ae": "0",
+            "tcp.flags.cwr": "0",
+            "tcp.flags.ece": "0",
+            "tcp.flags.urg": "0",
+            "tcp.flags.ack": "1",
+            "tcp.flags.push": "0",
+            "tcp.flags.reset": "0",
+            "tcp.flags.syn": "0",
+            "tcp.flags.fin": "0",
+            "tcp.flags.str": "·······A····"
+          },
+          "tcp.window_size_value": "513",
+          "tcp.window_size": "131328",
+          "tcp.window_size_scalefactor": "256",
+          "tcp.checksum": "0xaf42",
+          "tcp.checksum.status": "2",
+          "tcp.urgent_pointer": "0",
+          "Timestamps": {
+            "tcp.time_relative": "0.025490000",
+            "tcp.time_delta": "0.000012000"
+          },
+          "tcp.analysis": {
+            "tcp.analysis.acks_frame": "2231",
+            "tcp.analysis.ack_rtt": "0.000012000",
+            "tcp.analysis.initial_rtt": "0.000234000"
+          }
+        }
+      }
+    }
+  },
+  {
+    "_index": "packets-2023-05-30",
+    "_type": "doc",
+    "_score": null,
+    "_source": {
+      "layers": {
+        "frame": {
+          "frame.section_number": "1",
+          "frame.interface_id": "0",
+          "frame.interface_id_tree": {
+            "frame.interface_name": "\\Device\\NPF_{52CA9201-C41F-47AB-A285-066C8DBA161D}",
+            "frame.interface_description": "Ethernet0"
+          },
+          "frame.encap_type": "1",
+          "frame.time": "May 30, 2023 15:49:34.959429000 Russia TZ 2 Standard Time",
+          "frame.offset_shift": "0.000000000",
+          "frame.time_epoch": "1685450974.959429000",
+          "frame.time_delta": "0.020602000",
+          "frame.time_delta_displayed": "33.001248000",
+          "frame.time_relative": "39.078161000",
+          "frame.number": "5704",
+          "frame.len": "60",
+          "frame.cap_len": "60",
+          "frame.marked": "0",
+          "frame.ignored": "0",
+          "frame.protocols": "eth:ethertype:ip:tcp",
+          "frame.coloring_rule.name": "TCP RST",
+          "frame.coloring_rule.string": "tcp.flags.reset eq 1"
+        },
+        "eth": {
+          "eth.dst": "00:50:56:b9:60:85",
+          "eth.dst_tree": {
+            "eth.dst_resolved": "VMware_b9:60:85",
+            "eth.dst.oui": "20566",
+            "eth.dst.oui_resolved": "VMware, Inc.",
+            "eth.addr": "00:50:56:b9:60:85",
+            "eth.addr_resolved": "VMware_b9:60:85",
+            "eth.addr.oui": "20566",
+            "eth.addr.oui_resolved": "VMware, Inc.",
+            "eth.dst.lg": "0",
+            "eth.lg": "0",
+            "eth.dst.ig": "0",
+            "eth.ig": "0"
+          },
+          "eth.src": "00:50:56:b9:a8:14",
+          "eth.src_tree": {
+            "eth.src_resolved": "VMware_b9:a8:14",
+            "eth.src.oui": "20566",
+            "eth.src.oui_resolved": "VMware, Inc.",
+            "eth.addr": "00:50:56:b9:a8:14",
+            "eth.addr_resolved": "VMware_b9:a8:14",
+            "eth.addr.oui": "20566",
+            "eth.addr.oui_resolved": "VMware, Inc.",
+            "eth.src.lg": "0",
+            "eth.lg": "0",
+            "eth.src.ig": "0",
+            "eth.ig": "0"
+          },
+          "eth.type": "0x0800",
+          "eth.padding": "00:00:00:00:00:00"
+        },
+        "ip": {
+          "ip.version": "4",
+          "ip.hdr_len": "20",
+          "ip.dsfield": "0x00",
+          "ip.dsfield_tree": {
+            "ip.dsfield.dscp": "0",
+            "ip.dsfield.ecn": "0"
+          },
+          "ip.len": "40",
+          "ip.id": "0x003b",
+          "ip.flags": "0x02",
+          "ip.flags_tree": {
+            "ip.flags.rb": "0",
+            "ip.flags.df": "1",
+            "ip.flags.mf": "0"
+          },
+          "ip.frag_offset": "0",
+          "ip.ttl": "255",
+          "ip.proto": "6",
+          "ip.checksum": "0xcc6c",
+          "ip.checksum.status": "2",
+          "ip.src": "10.0.77.164",
+          "ip.addr": "10.0.77.164",
+          "ip.src_host": "10.0.77.164",
+          "ip.host": "10.0.77.164",
+          "ip.dst": "10.0.77.132",
+          "ip.addr": "10.0.77.132",
+          "ip.dst_host": "10.0.77.132",
+          "ip.host": "10.0.77.132"
+        },
+        "tcp": {
+          "tcp.srcport": "9443",
+          "tcp.dstport": "65197",
+          "tcp.port": "9443",
+          "tcp.port": "65197",
+          "tcp.stream": "45",
+          "tcp.completeness": "63",
+          "tcp.len": "0",
+          "tcp.seq": "9",
+          "tcp.seq_raw": "1394029525",
+          "tcp.nxtseq": "9",
+          "tcp.ack": "182",
+          "tcp.ack_raw": "2271845875",
+          "tcp.hdr_len": "20",
+          "tcp.flags": "0x0014",
+          "tcp.flags_tree": {
+            "tcp.flags.res": "0",
+            "tcp.flags.ae": "0",
+            "tcp.flags.cwr": "0",
+            "tcp.flags.ece": "0",
+            "tcp.flags.urg": "0",
+            "tcp.flags.ack": "1",
+            "tcp.flags.push": "0",
+            "tcp.flags.reset": "1",
+            "tcp.flags.reset_tree": {
+              "_ws.expert": {
+                "tcp.connection.rst": "",
+                "_ws.expert.message": "Connection reset (RST)",
+                "_ws.expert.severity": "6291456",
+                "_ws.expert.group": "33554432"
+              }
+            },
+            "tcp.flags.syn": "0",
+            "tcp.flags.fin": "0",
+            "tcp.flags.str": "·······A·R··"
+          },
+          "tcp.window_size_value": "9300",
+          "tcp.window_size": "2380800",
+          "tcp.window_size_scalefactor": "256",
+          "tcp.checksum": "0x0c7a",
+          "tcp.checksum.status": "2",
+          "tcp.urgent_pointer": "0",
+          "Timestamps": {
+            "tcp.time_relative": "33.026738000",
+            "tcp.time_delta": "33.001248000"
+          }
+        }
+      }
+    }
+  }
+]
